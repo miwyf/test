@@ -1,0 +1,109 @@
+## 1 Key Features
+ - Real-time energy monitoring via your Wi-Fi network
+- Simply one-key Wi-Fi setup to connect to your Wi-Fi network
+- Enterprise-class performance, suitable for domestic, commerical, industrial use and solar system
+- Cloud service and Mobile app is available
+- Support local monitoring via LAN or uploading the data to your specificed server
+ - 2-pole DIN-rail mounting fits neatly in the meter box
+ 
+## 2 General Specification
+
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|Standard package|1. Wi-Fi Energy Meter (WEM3080) x 1<br>2. Split-core Current Transformer(150A or 250A optional) x 3<br>3. 2.4G Wi-Fi Antenna x 1|
+|Phase|Three phase|
+|Power Supply|Built-in universal power supply|
+|Communication|Built-in Wi-Fi|
+|Antenna|External 2.4G antenna with SMA male|
+|Reporting interval|1-5 minutes interval, typically 1 minute|
+|Report contents|              Active Energy (Forward and Reverse), Active Power, Voltage, Current, Frequency |
+|Configuration|1. Wi-Fi access point and webpage for setting SSID and password <br> 2.               Mobile App for setting SSID and password|
+|Monitoring Scenarios|1. Monitor on Iammeter Cloud<br>2.              Monitor locally on your PC via WLAN (Http get interface)<br>3.               Integrate with third party server, such as your own server, PVoutput and HomeAssistant (TCP/SSL interface)|
+
+## 3 Electrical characteristics
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|Input Voltage|80V～277VAC (Phase Voltage), 140V～480 VAC (Line Voltage)|
+|CT Rating|100A or 250A optional|
+|Measurement Accuracy|1. Voltage: ±1.0%<br>2. Current: ±1.0%<br>3. Active Power: ±1.0%<br> 4. Active Energy: Class 1 as defined by IEC62053-21|
+|Typical power consumption|≤2W(220VAC input)|
+
+## 4 Mechanical characteristics
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|Weight|0.62kg (150A model); 1.02kg (250A model)|
+|Dimension|90.2*71\*57.5mm (2 DIN pole)|
+|Protection|IP51|
+|Connection| 1. AC input: UA-Live wire Phase A, UB-Live wire Phase B, UC-Live wire Phase C, UN-Neutral wire <br>2. RS485 interface: A-Positive, B-Negative<br>3. CT:  IA+ is Positive Phase A, IA- is Negative Phase A; IB+ is Positive Phase B, IB- is Negative Phase B; IC+ is Positive Phase A, IC- is Negative Phase C <br>4. SMA port: External Antenna Port|
+
+## 5 Environmental conditions
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|Operating Temperature|-20～+60℃|
+|Operating Humidity|5～95%|
+|Altitude|0～3000m|
+
+## 6 Wi-Fi Network
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|WLAN|Channel:Auto<br>Security:WPA2-PSK|
+|SSID|iMeter_xxxxxxxxx(8 digits serial no), no password|
+|Configuration Page|URL:http://11.11.11.1<br>Login username: admin<br>Password:admin|
+
+## 7 Wi-Fi Parameters
+
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|Wi-Fi Mode|Support WiFi 802.11b/g/n, Wi-Fi frequency 1-13|
+|Transmit power|18.5dBm@11b，15.5dBm@11g，14.5dBm@11n；|
+|Wi-Fi Frequency|2.400 ~ 2.472GHZ|
+|Transmit Speed|3686400bps at highest|
+|Maximum Connections|8|
+|Wi-Fi Antenna|External, 8dBi gain|
+
+## 8 RS485 interface
+| Specification   | Description           | 
+| ------------- |:-------------| 
+|Protocol|Modbus-RTU|
+|Data format|“n,8,1”|
+|Baud rate|1200、2400、4800、9600Bps；9600Bps by default|
+
+## 9 Indicator
+| Indicator   | Description           | 
+| ------------- |:-------------| 
+|RUN|Always on after powering on，flashing while the WiFi module is communicating with the power meter|
+|REV|Always on when:<br>1. The current is reversed as per the bottom-marked current direction of CT for any phase, or<br>2. The CT is connected to the wrong phase|
+|WIFI|Always on after the Wi-Fi module is connected to the router|
+
+## 10 Compliance Certificates and standard
+
+* Certification: Rohs, CE
+* CE Standard Applied
+ 
+| **Essential Requirements** | **Applied Standard** | 
+| :--- | :--- | 
+|Health and Safety|EN60950-1:2006+A11; 2009+A1;2010+A12;2011+A2;2013|
+|Electromagnetic Compatibility|EN62311:2008|
+|Effective Use of the Radio Spectrum|1. ETSI EN 301 489-1 V2.1.1 (2017-02) <br>2. ETSI EN 301 489-1 V3.1.1 (2017-02) <br>3. ETSI EN 300 328 V2.1.1 (2016-11)|
+
+* IEC Standard Applied
+
+| **Essential Requirements** | **Applied Standard** |**Meters of Class**|
+| :--- | :--- |:--- |
+|General Requirement|IEC62052-11| Protective classⅠ, Indoor|
+|Accuracy requirement|IEC62053-21|Accuracy index class 1|
+|Mechanical requirement|IEC62053-21|Protective classⅠ, Indoor|
+
+## 11 Attachment
+**CE Certificate**
+![CE](https://leweidoc.oss-cn-hangzhou.aliyuncs.com/lewei50/img/iammetermanual-20181010-L15.jpg)
+
+**RoHS Declaration**
+
+![RoHS](https://leweidoc.oss-cn-hangzhou.aliyuncs.com/lewei50/img/iammetermanual-20181010-L16.jpg)
+
+### Note
+
+If you have a WeChat account, please follow our IAMMETER WeChat public ID.
+
+![iammeter.jpg](https://leweidoc.oss-cn-hangzhou.aliyuncs.com/lewei50/img/iammeter-20181103-1.jpg)
