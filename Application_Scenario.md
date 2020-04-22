@@ -1,1 +1,0 @@
-This chapter introduces some typical application scenarios of our product and system.
